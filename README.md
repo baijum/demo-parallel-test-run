@@ -1,6 +1,6 @@
 # Demo Parallel Test Run
 
-To see the output:
+To see the output (notice the time stamp):
 
     $ go test ./... -v
     ?       github.com/baijum/demo-parallel-test-run        [no test files]
@@ -26,7 +26,7 @@ To see the output:
     ok      github.com/baijum/demo-parallel-test-run/a4     0.002s
 
 
-You can also specify the packages:
+You can also specify the packages (notice the time stamp):
 
     $ go test ./a1 ./a2 ./a3 ./a4 -v
     === RUN   TestHello
